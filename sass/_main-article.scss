@@ -1,0 +1,66 @@
+.article-container {
+	display: flex;
+	max-width:1000px;
+	width: 100%;
+	justify-content: center;
+
+.section {
+	margin: 0 30px auto 30px;
+	max-width: 700px;
+	width: 100%;
+	padding: 120px 0 120px 0;
+
+	.title-article {
+		display: flex;
+
+		h1 {
+			width: 100%;
+			font-size: 30px;
+			font-weight: 700;
+			margin: 0 auto 0 auto;
+		}
+	}
+
+	.article {
+		//margin: 42px 0 0 0;
+		max-width: 700px;
+		width: 100%;
+		
+		.about {
+			font-weight: 700;
+			margin: 12px 0 12px 0;
+		}
+
+		.about-home {
+			margin: 48px 0 20px 0;
+			font-weight: 700;
+			border-bottom: 3px solid #EEE;
+		}
+
+		.picture {
+			float: right;
+			margin: 10px;
+			margin-left: 10px;
+		}
+
+		p {
+			font-size: 18px;
+			margin-bottom: 2.5rem;
+			line-height: 150%;
+		}
+
+		.category-links {
+			line-height: 1.6;
+			margin: 30px 0 30px 0;
+
+			span, a {
+				font-size: 18px;
+			}
+		}
+		.category-links a {
+			text-decoration: none;
+		}
+	}
+
+}
+}

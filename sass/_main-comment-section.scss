@@ -1,0 +1,17 @@
+.main-comment-section {
+	display: flex;
+
+	.comment-wrap{
+		display: flex;
+
+		.user {
+			width: 58px;
+
+		}
+		img {
+			width: 48px;
+			height: 48px;
+			border-radius: 4px;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+.shop-header {
+	font-weight: 700;
+	margin: 38px 0 28px 0;
+} 
+.article-shop-container {
+	display: flex;
+	width: 100%;
+	margin: 0 0 38px 0;
+	
+	.product {
+		//flex-direction: row;
+		//padding: 20px;
+		width: 100%;
+
+
+		.image {
+			display: flex;
+			justify-content: center;
+			//margin: 12px 0 0 0;
+		}
+	}
+
+.product-title-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+.product-title {
+	margin: 12px 0 0;
+	//width: 22%;
+	padding: 10px;
+
+	h4 {
+		//font-size: 18px;
+	}
+
+	h4 a:link, a:active, a:hover, a:visited {
+		text-decoration: none;
+		color: blue;
+	}
+}
+}
+}

@@ -1,0 +1,481 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../../sass/_top.scss */
+.top {
+  position: fixed;
+  background-color: #E0E0E0;
+  width: 100%;
+  height: 64px;
+  padding: 0 24px 0 24px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
+}
+/* line 10, ../../sass/_top.scss */
+.top .flex {
+  display: flex;
+}
+/* line 13, ../../sass/_top.scss */
+.top .flex .flex-spacer {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+/* line 18, ../../sass/_top.scss */
+.top .flex .brand {
+  display: inline-flex;
+  align-items: center;
+}
+/* line 22, ../../sass/_top.scss */
+.top .flex .brand h1 {
+  font-size: 32px;
+  padding: 10px;
+  font-weight: 600;
+}
+/* line 27, ../../sass/_top.scss */
+.top .flex .brand h1 a:link, .top .flex .brand h1 a:hover, .top .flex .brand h1 a:active, .top .flex .brand h1 a:visited {
+  text-decoration: none;
+  color: black;
+}
+/* line 34, ../../sass/_top.scss */
+.top .flex .search-top {
+  display: inline-flex;
+  align-items: center;
+}
+/* line 38, ../../sass/_top.scss */
+.top .flex .search-top .material-icons {
+  background-color: #FFFFFF;
+  height: 24px;
+  width: 24px;
+  padding: 8px 12px 8px 24px;
+}
+/* line 44, ../../sass/_top.scss */
+.top .flex .search-top .material-icons .material-icons i {
+  font-size: 24px;
+}
+/* line 49, ../../sass/_top.scss */
+.top .flex .search-top input {
+  border: none;
+  outline: none;
+  font-weight: 300;
+  width: 260px;
+  height: 40px;
+  font-size: 0.9rem;
+  border-raius: 2px;
+  padding: 0 16px 0 16px;
+}
+
+/* line 1, ../../sass/_main-nav.scss */
+.main-nav {
+  background-color: transparent;
+  height: 40px;
+  padding: 78px 0 30px 0;
+}
+/* line 6, ../../sass/_main-nav.scss */
+.main-nav .nav-container {
+  max-width: 1024px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0 auto;
+}
+/* line 13, ../../sass/_main-nav.scss */
+.main-nav .nav-container a:link, .main-nav .nav-container a:active, .main-nav .nav-container a:hover, .main-nav .nav-container a:visited {
+  text-decoration: none;
+  color: blue;
+}
+/* line 17, ../../sass/_main-nav.scss */
+.main-nav .nav-container a:hover {
+  box-shadow: 2px 4px 0 0 black;
+  transition: all 0.3s ease-out;
+}
+
+/* line 1, ../../sass/_main-article.scss */
+.article-container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: center;
+}
+/* line 7, ../../sass/_main-article.scss */
+.article-container .section {
+  margin: 0 30px auto 30px;
+  max-width: 700px;
+  width: 100%;
+  padding: 120px 0 120px 0;
+}
+/* line 13, ../../sass/_main-article.scss */
+.article-container .section .title-article {
+  display: flex;
+}
+/* line 16, ../../sass/_main-article.scss */
+.article-container .section .title-article h1 {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto 0 auto;
+}
+/* line 24, ../../sass/_main-article.scss */
+.article-container .section .article {
+  max-width: 700px;
+  width: 100%;
+}
+/* line 29, ../../sass/_main-article.scss */
+.article-container .section .article .about {
+  font-weight: 700;
+  margin: 12px 0 12px 0;
+}
+/* line 34, ../../sass/_main-article.scss */
+.article-container .section .article .about-home {
+  margin: 48px 0 20px 0;
+  font-weight: 700;
+  border-bottom: 3px solid #EEE;
+}
+/* line 40, ../../sass/_main-article.scss */
+.article-container .section .article .picture {
+  float: right;
+  margin: 10px;
+  margin-left: 10px;
+}
+/* line 46, ../../sass/_main-article.scss */
+.article-container .section .article p {
+  font-size: 18px;
+  margin-bottom: 2.5rem;
+  line-height: 150%;
+}
+/* line 52, ../../sass/_main-article.scss */
+.article-container .section .article .category-links {
+  line-height: 1.6;
+  margin: 30px 0 30px 0;
+}
+/* line 56, ../../sass/_main-article.scss */
+.article-container .section .article .category-links span, .article-container .section .article .category-links a {
+  font-size: 18px;
+}
+/* line 60, ../../sass/_main-article.scss */
+.article-container .section .article .category-links a {
+  text-decoration: none;
+}
+
+/* line 2, ../../sass/_side-nav.scss */
+.main-nav-container {
+  display: flex;
+}
+/* line 5, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav {
+  display: inline-flex;
+  margin: 0 32px 0 0;
+  padding: 120px 0 120px 0;
+}
+@media screen and (max-width: 982px) {
+  /* line 5, ../../sass/_side-nav.scss */
+  .main-nav-container .side-nav {
+    display: none;
+  }
+}
+/* line 13, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav .side-nav-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFEFE;
+  width: 100%;
+}
+/* line 20, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav .side-nav-container h3 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-weight: 700;
+  padding: 12px;
+  background-color: #E0E0E0;
+}
+/* line 28, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav .side-nav-container a {
+  text-align: center;
+  margin: 10px 0 0 2px;
+  padding: 4px;
+  line-height: 1.2;
+}
+/* line 35, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav .side-nav-container a:last-of-type {
+  margin: 10px 0 10px 0;
+}
+/* line 39, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav .side-nav-container a:link, .main-nav-container .side-nav .side-nav-container a:active, .main-nav-container .side-nav .side-nav-container a:hover, .main-nav-container .side-nav .side-nav-container a:visited {
+  color: blue;
+  text-decoration: none;
+}
+/* line 43, ../../sass/_side-nav.scss */
+.main-nav-container .side-nav .side-nav-container a:hover {
+  box-shadow: 2px 4px 0 0 blue;
+  transition: all 0.3s ease-out;
+}
+
+/* line 1, ../../sass/_site-links.scss */
+.link-container {
+  display: flex;
+  flex-direction: column;
+}
+/* line 5, ../../sass/_site-links.scss */
+.link-container h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+/* line 11, ../../sass/_site-links.scss */
+.link-container h3 {
+  font-weight: 600;
+  margin: 30px 0 20px 0;
+}
+/* line 17, ../../sass/_site-links.scss */
+.link-container .links p {
+  line-height: 150%;
+  margin: 12px 0 12px 0;
+}
+
+/* line 1, ../../sass/_comic-info.scss */
+.comic-info {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 0 0;
+}
+/* line 6, ../../sass/_comic-info.scss */
+.comic-info h3 {
+  font-weight: 700;
+}
+/* line 10, ../../sass/_comic-info.scss */
+.comic-info li {
+  line-height: 1.6;
+}
+
+/* line 1, ../../sass/_shop-section.scss */
+.shop-header {
+  font-weight: 700;
+  margin: 38px 0 28px 0;
+}
+
+/* line 5, ../../sass/_shop-section.scss */
+.article-shop-container {
+  display: flex;
+  width: 100%;
+  margin: 0 0 38px 0;
+}
+/* line 10, ../../sass/_shop-section.scss */
+.article-shop-container .product {
+  width: 100%;
+}
+/* line 16, ../../sass/_shop-section.scss */
+.article-shop-container .product .image {
+  display: flex;
+  justify-content: center;
+}
+/* line 23, ../../sass/_shop-section.scss */
+.article-shop-container .product-title-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+/* line 28, ../../sass/_shop-section.scss */
+.article-shop-container .product-title-container .product-title {
+  margin: 12px 0 0;
+  padding: 10px;
+}
+/* line 37, ../../sass/_shop-section.scss */
+.article-shop-container .product-title-container .product-title h4 a:link, .article-shop-container .product-title-container .product-title a:active, .article-shop-container .product-title-container .product-title a:hover, .article-shop-container .product-title-container .product-title a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+/* line 1, ../../sass/_main-footer.scss */
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  background-color: #dedede;
+}
+/* line 8, ../../sass/_main-footer.scss */
+.main-footer .footer-info {
+  margin-top: 18px;
+  text-align: center;
+  width: 100%;
+}
+/* line 13, ../../sass/_main-footer.scss */
+.main-footer .footer-info p {
+  margin: 12px 0 12px 0;
+}
+/* line 17, ../../sass/_main-footer.scss */
+.main-footer .footer-info p:nth-of-type(3) {
+  font-weight: 700;
+}
+/* line 22, ../../sass/_main-footer.scss */
+.main-footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 28%;
+  margin: 0 auto 0 auto;
+}
+/* line 29, ../../sass/_main-footer.scss */
+.main-footer ul a:link, .main-footer ul a:active, .main-footer ul a:hover, .main-footer ul a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+/* line 1, ../../sass/_main-article-home.scss */
+.guide {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+/* line 6, ../../sass/_main-article-home.scss */
+.guide .s-picture {
+  align-content: flex-start;
+  padding: 12px;
+}
+/* line 11, ../../sass/_main-article-home.scss */
+.guide .guide-flex {
+  width: 100%;
+}
+/* line 14, ../../sass/_main-article-home.scss */
+.guide .guide-flex .guide-info p {
+  font-size: 16px;
+}
+
+/* line 1, ../../sass/_main-section-home.scss */
+.section-guide {
+  width: 100%;
+}
+/* line 4, ../../sass/_main-section-home.scss */
+.section-guide .title-section h1 {
+  margin: 18px 0 20px 0;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 3px solid #EEE;
+}
+
+/* line 19, ../../sass/style.scss */
+html {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.2;
+}
+
+/* line 24, ../../sass/style.scss */
+body {
+  background-color: #FAFAFA;
+}
+
+/* line 29, ../../sass/style.scss */
+.container {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+/* You are UNIMPORTANT @media (max-width: 400px) {
+	.top .flex .brand h1 {
+		display: flex;
+		padding: none;
+	}
+}*/
+@media (max-width: 678px) {
+  /* line 43, ../../sass/style.scss */
+  .search-top input {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  /* line 49, ../../sass/style.scss */
+  .article {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 0 auto;
+  }
+}
+@media (min-width: 1182px) {
+  /* line 57, ../../sass/style.scss */
+  .article {
+    margin: 42px 0 0 0;
+  }
+}
+@media screen and (max-width: 800px) {
+  /* line 63, ../../sass/style.scss */
+  .picture img {
+    display: none;
+  }
+
+  /* line 67, ../../sass/style.scss */
+  .picture {
+    display: flex;
+    background-image: url("https://www.2-clicks-comics.com/images/category_image/Fullmetal%20Alchemist%20comics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: 50% 50%;
+  }
+}

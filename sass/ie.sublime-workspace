@@ -1,0 +1,260 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"light",
+				"lightgray"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"transition-",
+				"transition-duration"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"qout",
+				"qoutient"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/EDITOR PC3/Desktop/project1/sass/style.scss",
+		"/C/Users/EDITOR PC3/Desktop/project1/sass/_top.scss",
+		"/C/Users/EDITOR PC3/Desktop/project1/sass/_container.scss",
+		"/C/Users/EDITOR PC3/Desktop/project1/html/homepage.html",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_main-top.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/help.html",
+		"/C/Users/EDITOR PC3/Documents/EHHHHH/SF4_NoOne.html",
+		"/C/Users/EDITOR PC3/Desktop/project1/config.rb",
+		"/C/Users/EDITOR PC3/Documents/EHHHHH/ISELEC 41 TEAM JEA/styleV1.3 PART-1.css",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/style.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_footer.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_main.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/config.rb",
+		"/C/Users/EDITOR PC3/Desktop/Magdaong/whatoplay-test/config.rb",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_container.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_container",
+		"/C/Users/EDITOR PC3/Desktop/Magdaong/whatoplay-test/sass/_top.scss",
+		"/C/Users/EDITOR PC3/Desktop/Magdaong/whatoplay-test/sass/_hero.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/html/new-file.html",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_top.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_wrap.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/html/home-page-wdp",
+		"/C/Users/EDITOR PC3/Documents/EHHHHH/1.html",
+		"/C/Users/EDITOR PC3/Documents/EHHHHH/style.css",
+		"/C/Users/EDITOR PC3/Documents/EHHHHH/Iselec 31 SAT Login UI.html",
+		"/C/Users/EDITOR PC3/Desktop/Magdaong/whatoplay-test/html/home.html",
+		"/C/Users/EDITOR PC3/Desktop/myfile/html/newfile.html",
+		"/C/Users/EDITOR PC3/Desktop/Magdaong/C programming/Test-1",
+		"/C/Users/EDITOR PC3/Desktop/Magdaong/C programming/Test-1.c",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_main-container.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_nav.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/html/Assignment.py",
+		"/C/Users/EDITOR PC3/Desktop/myfile/assets/css/style.css",
+		"/C/Users/EDITOR PC3/Desktop/myfile/html/index.html",
+		"/C/Users/EDITOR PC3/Desktop/myfile/assets/css/_top.scss",
+		"/C/Users/EDITOR PC3/Desktop/myfile/sass/_wrap.css",
+		"/C/Users/EDITOR PC3/Desktop/myfile/_container.scss",
+		"/C/Users/EDITOR PC3/Desktop/pj-test/test.html",
+		"/C/Users/EDITOR PC3/Documents/Galimbas Klent Brylle/Test 2/test2.html",
+		"/C/Users/EDITOR PC3/Desktop/pj-test/main.css",
+		"/C/Users/EDITOR PC3/Documents/Galimbas Klent Brylle/index.html",
+		"/C/Users/EDITOR PC3/Desktop/test.html",
+		"/C/Users/EDITOR PC3/Desktop/main.css",
+		"/C/Users/EDITOR PC3/Documents/Galimbas Klent Brylle/test2.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ie.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
